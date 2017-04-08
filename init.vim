@@ -15,6 +15,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'cloudhead/neovim-fuzzy'
 Plugin 'eugen0329/vim-esearch'
 Plugin 'Yggdroot/indentLine'
+
+Plugin 'ryanoasis/vim-devicons'
 Plugin 'ayu-theme/ayu-vim' " if not already installed
 
 " syntax files
@@ -66,10 +68,10 @@ let ayucolor="dark"   " for dark version of theme
 colorscheme ayu 
 
 " IndentLine {{
-let g:indentLine_char = ''
-let g:indentLine_first_char = ''
-"let g:indentLine_showFirstIndentLevel = 1
-let g:indentLine_setColors = 0
+"let g:indentLine_char = '|'
+"let g:indentLine_first_char = '|'
+""let g:indentLine_showFirstIndentLevel = 1
+"let g:indentLine_setColors = 0
 " }}
 "
 set noswapfile
